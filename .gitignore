@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Vector database storage
+db/
+chroma_db/
+
+# Local environment variables & secrets
+.env
+
+# Temp download/upload folders
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
