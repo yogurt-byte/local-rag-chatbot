@@ -35,9 +35,9 @@ A privacy-first, fully local Retrieval-Augmented Generation (RAG) chatbot built 
 ├── 3_history_aware_generation.py   # Multi-turn chatbot with memory and query rewriting
 ├── .gitignore                      # Prevents committing venv, DB, and API keys
 └── README.md                       # Project documentation
-
-##**Getting Started**
-Prerequisites
+```
+#**Getting Started**
+**Prerequisites**
 Install Python 3.9+
 Download and install Ollama from ollama.com
 Download the local models by running the following commands in your terminal:
@@ -46,7 +46,7 @@ bash
 
 ollama pull nomic-embed-text
 ollama pull llama3.2
-Installation & Setup
+**Installation & Setup**
 Clone the repository:
 
 bash
@@ -74,7 +74,7 @@ bash
 pip install langchain langchain-community langchain-chroma langchain-ollama python-dotenv
 Add your documents: Create a folder named docs (if not already present) and add the text documents (.txt files) you want your AI to know about.
 
-How to Run
+**How to Run**
 Step 1: Ingest Documents
 Process the raw text files, generate embeddings, and save them to the database:
 
@@ -97,4 +97,7 @@ bash
 
 python 3_history_aware_generation.py
 Ask questions based on your documents, and type quit to exit.
+
+....then what is this for
+
 
